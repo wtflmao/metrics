@@ -37,7 +37,7 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_details: lines, bytes-size
           plugin_languages_limit: 8
-          plugin_languages_analysis_timeout: 30
+          plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 0
           plugin_languages_recent_days: 180
           plugin_languages_recent_load: 1000
