@@ -20,7 +20,6 @@ jobs:
           use_prebuilt_image: yes
           retries_output_action: 5
           retries_delay_output_action: 120
-          config_padding: -10%, -10%
           config_timezone: Australia/Perth
 
           plugin_isocalendar: yes
@@ -31,6 +30,6 @@ jobs:
           
           plugin_habits: yes
           plugin_habits_facts: yes
-          plugin_habits_charts: yes
+          plugin_habits_charts: no
           plugin_habits_days: 30
           plugin_habits_from: 1000
